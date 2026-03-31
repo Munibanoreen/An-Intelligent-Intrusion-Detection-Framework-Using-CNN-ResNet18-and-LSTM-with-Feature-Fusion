@@ -30,4 +30,27 @@ We use **CIC-IDS2017 dataset**.
 Download from:"https://www.unb.ca/cic/datasets/index.html"
 https://www.unb.ca/cic/datasets/ids-2017.html
 
-Place dataset in:
+## 🚀 How to Run
+
+### 1. Install Requirements and next train the model and test the model
+```bash
+pip install -r requirements.txt
+python train.py --data_dir data/cicids2017 --output_dir artifacts --epochs 5 --batch_size 512
+python test.py --data_dir data/cicids2017 --artifact_dir artifacts --output_dir results
+---
+
+cd your_repo
+pip install -r requirements.txt
+python train.py --data_dir data/cicids2017
+python test.py --data_dir data/cicids2017
+# 📂 Where files should be placed
+
+Your repo structure should look like this:
+
+```bash
+your_repo/
+│── train.py
+│── test.py
+│── dataset.py
+│── requirements.txt
+│── README.md
