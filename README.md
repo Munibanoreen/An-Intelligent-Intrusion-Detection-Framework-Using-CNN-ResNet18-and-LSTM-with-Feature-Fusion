@@ -21,6 +21,8 @@ The framework leverages:
 6. Output (Benign vs Attack)
 
 ---
+## Proposed Architecture
+![Proposed Architecture](Image 1, image 2, image 3)
 
 ## 📊 Dataset
 We use **CIC-IDS2017 dataset**.
